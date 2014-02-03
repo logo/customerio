@@ -1,0 +1,26 @@
+
+/**
+ * Customer.io
+ */
+
+.logo[data-logo="Customer.io"] {
+  width: 5.221111842em;
+  /* (545.65/76) * (1-.07-.2) - .02 */
+}
+
+.logo[data-logo="Customer.io"] > * {
+  background-image: url(images/logo.svg);
+  margin: .07em -.02em .2em 0;
+}
+
+.logo[data-logo="Customer.io"].monochromatic > * {
+  background-image: url(images/logo-monochromatic.svg);
+}
+
+.logo[data-logo="Customer.io"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="Customer.io"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
